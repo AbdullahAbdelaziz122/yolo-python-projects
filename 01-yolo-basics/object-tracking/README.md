@@ -1,4 +1,4 @@
-# 🧠 YOLOv8 Object Detection & Naive Tracking with OpenCV
+# YOLOv8 Object Detection & Naive Tracking with OpenCV
 
 This project enables **real-time object detection and simple multi-object tracking** on video streams using [YOLOv8](https://github.com/ultralytics/ultralytics) from Ultralytics, alongside **OpenCV** for video processing and visualization.
 
@@ -32,7 +32,7 @@ You’ll need:
 
 ---
 
-## 🧠 How it Works
+## How it Works
 
 1. YOLOv8 detects objects in each frame.
 2. The center of each bounding box is calculated.
