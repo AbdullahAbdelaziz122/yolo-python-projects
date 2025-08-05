@@ -14,7 +14,6 @@ This project uses a YOLO model and a Kalman Filter to detect and predict the tra
 - Python 3.x
 - [Ultralytics YOLO](https://docs.ultralytics.com/)
 - OpenCV (`cv2`)
-- NumPy
 - Custom `KalmanFilter` implementation
 
 ## Setup
@@ -56,7 +55,4 @@ python main.py
 
 - The script only detects basketballs (`CLASS_NAMES = ["Basketball"]`).
 - Modify `CLASS_NAMES` for other object classes if needed.
-
-## License
-
-This project is for educational purposes.
+- There are demo data to try the project located in folders `image` and `videos`

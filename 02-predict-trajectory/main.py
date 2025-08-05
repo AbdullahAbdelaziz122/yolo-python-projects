@@ -1,7 +1,6 @@
 import math
 import cv2
 from kalmanfilter import KalmanFilter
-import numpy as np
 import os
 from  ultralytics import YOLO
 
