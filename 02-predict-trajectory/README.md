@@ -25,7 +25,7 @@ This project uses a YOLO model and a Kalman Filter to detect and predict the tra
 
 Install dependencies:
 ```bash
-pip install ultralytics opencv-python numpy
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -47,8 +47,10 @@ python main.py
 │   └── demo1.mp4
 ├── output/
 │   └── output.mp4
+│
 ├── kalmanfilter.py
-└── main.py
+├── main.py
+└── requiremwnts.txt
 ```
 
 ## Notes
